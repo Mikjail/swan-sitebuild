@@ -8,6 +8,8 @@ html {
   width: 100%;
   padding: 0px;
   margin: 0px;
+  font-family: Helvetica;
+  font-style: normal;
 }
 /* Container  */
 .container {
@@ -51,7 +53,13 @@ nav > ul > li {
 }
 
 /* CONTENT */
-
+/* Main */
+main{
+    padding: 15px 15px;
+}
+section{
+    padding: 15px 0px;
+}
 /*  Title Section  */
 .title-section {
   width: 100%;
@@ -77,10 +85,32 @@ nav > ul > li {
 /* Thumbnail Section */
 .thumb-section {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .thumb-section > .thumb-1,
 .thumb-section > .thumb-2 {
-  padding: 10px;
+  max-width: 50%;
+  height: auto;
+}
+
+/* Articles Section */
+.articles-section{
+    display: flex;
+    justify-content: space-between;
+}
+.articles-section > .article{
+    width:28%;
+    min-height: 205px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.article > h3 {
+    margin:0;
+    font-weight: 400;
+}
+.article > p{
+    font-size: 14px;
 }

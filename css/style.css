@@ -1,11 +1,19 @@
 /* HTML/BODY */
 body,
 html {
+  display: flex;
+  justify-content: center;
+  background-color: #cccccc;
   height: 100%;
   width: 100%;
   padding: 0px;
   margin: 0px;
-  background-color: #adadad;
+}
+/* Container  */
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
 }
 
 /* HEADER */
@@ -26,7 +34,7 @@ nav {
   display: flex;
   flex-direction: row;
   width: 100%;
-  background-color: #efefefe1;
+  background-color: #F8F8F8;
 }
 
 nav > ul {
@@ -45,32 +53,34 @@ nav > ul > li {
 /* CONTENT */
 
 /*  Title Section  */
-.title-section{
-   width: 100%;
-   height: 20%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+.title-section {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.title-section > .title-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 728px;
-    height: 90px;
-    background-color: #ffffff;
+
+.title-section > .title-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 728px;
+  height: 90px;
+  background-color: #F0F0F0;
 }
-.title-content > .title-text{
-    font-size: 18px;
-   
+
+.title-content > .title-text {
+  font-size: 18px;
 }
 
 /* Thumbnail Section */
-.thumb-section{
-    display:flex;
-    justify-content: center;
+.thumb-section {
+  display: flex;
+  justify-content: center;
 }
+
 .thumb-section > .thumb-1,
-.thumb-section > .thumb-2{
-    padding: 10px;
+.thumb-section > .thumb-2 {
+  padding: 10px;
 }

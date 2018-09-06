@@ -41,3 +41,26 @@ nav > ul > li {
   text-decoration: none;
   list-style: none;
 }
+
+/* CONTENT */
+
+/*  Title Section  */
+.title-section{
+   width: 100%;
+   height: 20%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.title-section > .title-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 728px;
+    height: 90px;
+    background-color: #ffffff;  
+}
+.title-content > .title-text{
+    font-size: 18px;
+   
+}

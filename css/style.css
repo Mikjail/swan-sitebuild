@@ -58,9 +58,19 @@ nav > ul > li {
     justify-content: center;
     width: 728px;
     height: 90px;
-    background-color: #ffffff;  
+    background-color: #ffffff;
 }
 .title-content > .title-text{
     font-size: 18px;
    
+}
+
+/* Thumbnail Section */
+.thumb-section{
+    display:flex;
+    justify-content: center;
+}
+.thumb-section > .thumb-1,
+.thumb-section > .thumb-2{
+    padding: 10px;
 }

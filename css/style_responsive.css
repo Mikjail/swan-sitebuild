@@ -1,0 +1,113 @@
+/* =============================== */
+/* =========== MOBILE ============ */
+/* =============================== */
+
+@media only screen and (max-width: 600px) {
+
+  /* ============= MOBILE HEADER ============= */
+  header > .lang {
+    display: none;
+  }
+
+  /* ============= MOBILE NAV ============= */
+
+  .nav-default {
+    display: none;
+  }
+
+  /* ============= MOBILE CONTENT ============= */
+
+  /* Mobile - Thumbnail Section */
+  .thumb-section {
+    flex-direction: column;
+  }
+
+  .thumb-section > .thumb-xs,
+  .thumb-section > .thumb-xs {
+    max-width: 100% !important;
+    width: 100%;
+  }
+
+  /* Mobile - Articles Section */
+  .article > p{
+    margin: 0;
+  }
+
+  .article > h3{
+    padding: 10px 15px 0px;
+  }
+  .articles-section {
+    flex-direction: column;
+  }
+
+  .articles-section > .article-xs {
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 10px;
+    padding:0px;
+  }
+
+  /* ============= MOBILE FOOTER ============= */
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+    height: auto;
+  }
+  footer > .footer-left {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .footer-left span {
+    margin-top: 10px;
+  }
+  .footer-right {
+    margin: 10px 0px;
+  }
+}
+
+/* =============================== */
+/* =========== TABLET ============ */
+/* =============================== */
+
+@media only screen and (min-width: 600px) and (max-width: 1024px){
+
+    /* ============= TABLET CONTENT ============= */
+
+    /* Tablet - Thumbnail Section */
+    .thumb-section {
+      padding:0px;
+    }
+  
+    .thumb-section > .thumb-1,
+    .thumb-section > .thumb-2 {
+      height: 300px;
+    }
+  
+    /* Summary Section */
+    .summary-section{
+      display: flex;
+      justify-content: center;
+    }
+    .summary-section > p {
+      color:#4B4B4B;
+      width: 80%;
+  
+    }
+    
+}
+  
+/* ====================================== */
+/* =========== TABLET_MOBILE ============ */
+/* ====================================== */
+
+/* Tablet/Mobile Container */
+@media only screen and (max-width: 1024px){
+    .container {
+      width: 100%;
+    }
+  }
+  
